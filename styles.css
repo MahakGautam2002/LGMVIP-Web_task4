@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+.header{
+    background-color: #090808;
+    padding: 10px 50px;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 220px;
+    margin-right: 220px;
+    border-radius: 10px;
+}
+
+.calculator {
+    padding: 10px;
+    border-radius: 1em;
+    height: 380px;
+    width: 400px;
+    margin: 70px;
+    background-color: #191b28;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: rgba(33, 32, 34, 0.822) 0px 20px 30px, rgba(171, 167, 167, 0.855) 0px 20px 50px;
+}
+
+.display-box {
+    font-family: 'Orbitron', sans-serif;
+    background-color: #dcdbe1;
+    border: solid black 0.5px;
+    color: black;
+    border-radius: 5px;
+    width: 95%;
+    height: 65%;
+}
+
+.button {
+    font-family: 'Orbitron', sans-serif;
+    background-color: #64278f;
+    color: white;
+    border: solid black 0.5px;
+    width: 100%;
+    border-radius: 5px;
+    height: 70%;
+    outline: none;
+}
+
+.button:active {
+    background: #e5e5e5;
+    -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+    -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+    box-shadow: inset 0px 0px 5px #c1c1c1;
+}
+/* footer section styling */
+footer{
+    background: #111;
+    padding: 15px 23px;
+    color: #fff;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+footer span a{
+    color: #F2AA4CFF;
+    text-decoration: none;
+}
+footer span a:hover{
+    text-decoration: underline;
+}
